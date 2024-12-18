@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade | Fiza's Escape Corner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="game.svg">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="lofi-background"></div>
+    <div class="dropdown" onclick="toggleDropdown()"></div>
+    <nav class="left-navbar">
+            <ul>
+                <li><a href="index.html" class="active"><img src="home.svg" alt="Home Icon">Home</a></li>
+                <li><a href="study.html"><img src="study.svg" alt="Study Icon">Study</a></li>
+                <li><a href="music.html"><img src="music.svg" alt="Music Icon">Music</a></li>
+                <li><a href="arcade.html"><img src="game.svg" alt="Game Icon">Arcade</a></li>
+                <li><a onclick="changeBackground()"><img src="theme.svg" alt="Theme Icon"  >Theme</a></li>
+                <li><a href="mail.html"><img src="mail.svg" alt="Mail"> Mail </a></li>
+                <li><a onclick="greetUser()"><img src="popup.svg" alt="Popup Icon">Pop-up</a></li>
+            </ul>
+    </nav>
+    <header>
+        <h1>Fiza's Escape Corner</h1>
+    </header>
+    
+    <main>
+    	<section class="games">
+            <h2 class="inside-h2">Games</h2>
+            <h3>Geometry Dash</h3>
+            <div id="geometry-dash">
+                <iframe src="https://funhtml5games.com?embed=geomdash" style="width:640px;height:360px;border: 1px;" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <h3>Wordle</h3>
+            <div id="wordle">
+                <iframe src="https://wordlegame.org" style="width:760px;height:600px;border: 1px;"></iframe>
+            </div>
+            <h3>Pacman</h3>
+            <div id="pacman">
+                <iframe src="https://funhtml5games.com?embed=pacman" style="width:342px;height:490px;border: 1px;" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <h3>Chess</h3>
+            <div id="chess">
+                <iframe src="https://fritz.chessbase.com" style="width:760px;height:480px;border: 1px;"></iframe>
+            </div>
+      </section>
+    </main>
+    <footer>
+        <p>&copy; Made with love for Fiza.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study | Fiza's Escape Corner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="study.svg">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="lofi-background"></div>
+    <div class="dropdown" onclick="toggleDropdown()"></div>
+    
+    <nav class="left-navbar">
+            <ul>
+                <li><a href="index.html" class="active"><img src="home.svg" alt="Home Icon">Home</a></li>
+                <li><a href="study.html"><img src="study.svg" alt="Study Icon">Study</a></li>
+                <li><a href="music.html"><img src="music.svg" alt="Music Icon">Music</a></li>
+                <li><a href="arcade.html"><img src="game.svg" alt="Game Icon">Arcade</a></li>
+                <li><a onclick="changeBackground()"><img src="theme.svg" alt="Theme Icon"  >Theme</a></li>
+                <li><a href="mail.html"><img src="mail.svg" alt="Mail"> Mail </a></li>
+                <li><a onclick="greetUser()"><img src="popup.svg" alt="Popup Icon">Pop-up</a></li>
+            </ul>
+    </nav>
+    
+    <header>
+        <h1>Fiza's Escape Corner</h1>
+    </header>
+    
+    <main>
+        <h1> </h1>
+        <section class="study">
+            <h2  class="inside-h2">Subjects Fiza Doesn't Love But She'll Ace</h2>
+            <ul class="subjects">
+                <li><button id="showmath">Math</button></li>
+                <li><button id="showphy">Physics</button></li>
+                <li><button id="showchem">Chemistry</button></li>
+                <li><button id="showurdu">Urdu-A</button></li>
+                <li><button id="showeng">English</button></li>
+                <li><button id="showbio">Biology</button></li>
+            </ul>
+            <ul class="sublinks">
+                <li><iframe id="mathframe" src="https://drive.google.com/embeddedfolderview?id=17VeGWoKjATtSjNS5Aw3t1pa0Qyib2V4b#list" style="display: none;"></iframe></li>
+                <li><iframe id="bioframe" src="https://drive.google.com/embeddedfolderview?id=1IWqEROdhCeb_-9HDGaP-ygy8ClU2z4am#list" style="display: none;"></iframe></li>                    
+                <li><iframe id="urduframe" src="https://drive.google.com/embeddedfolderview?id=1J62869aewpw4W-yjmrAXsU53ouATNEyb#list" style="display: none;"></iframe></li>
+                <li><iframe id="engframe" src="https://drive.google.com/embeddedfolderview?id=1Bj6win7s80gnCcPPOtSi61oybNAmZtZQ#list" style="display: none;"></iframe></li>
+                <li><iframe id="chemframe" src="https://drive.google.com/embeddedfolderview?id=1HYJw_TfV44XiZe5ai_tPwoE87jaha9Do#list" style="display: none;"></iframe></li>
+                <li><iframe id="phyframe" src="https://drive.google.com/embeddedfolderview?id=1zSUE2j6CgGuz2mYH76Udfxyvn0YBproo#list" style="display: none;"></iframe></li>
+            </ul>
+        </section>
+        <section>
+            <div class="textbox">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4LCxuRy4ywTcMeusgWErQK?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+        </section>
+        <section>
+            <div class="textbox">
+            <h2 class="inside-h2">Study Tips</h2>
+            <p>Here are some tips to help Fiza ace her studies:</p>
+            <ul>
+                <li>Create a study schedule and stick to it.</li>
+                <li>Find a quiet place to study without distractions.</li>
+                <li>Take breaks to avoid burnout. (important)</li>
+                <li>Ask for help when needed. (Yk where to go)</li>
+            </ul>
+            </div>
+        </section>
+        <section>
+            <div class="textbox">
+            <h2 class="inside-h2">Words of Encouragement</h2>
+            <p>"I believe in you! You're smart, capable, and you can achieve anything you set your mind to."</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Made with love for Fiza.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,237 @@
+body {
+  width: 100vw;
+  text-align: center;
+  font-family: "Space Grotesk",sans-serif;
+  color: #fff; /* Light gray text */
+  overflow-x:hidden;
+}
+
+header {
+  width: 100vw;
+  background-color: rgba(0,0,0,0.5);
+  padding: 10px;
+}
+
+main {
+  padding:10px;
+}
+.study {
+  margin: 0 auto;
+  width:80vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+  padding: 40px;
+}
+
+.games {
+  margin: 0 auto;
+  width:60vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+  padding: 40px;
+}
+
+.games h3 {
+  margin: 20px;
+}
+
+.textbox {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.textbox p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.textbox li {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+  
+.subjects {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.sublinks {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+  justify-content: center;
+}
+
+.sublinks li iframe {
+  margin: 0 auto;
+  background-color: #fff;
+  transition: display 0.5s ease-in-out;
+  width: 70%;
+  height: 35vh;
+}
+
+.subjects li button {
+  background-color: transparent;
+  margin: 0 10px;
+  font-size: 100%;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+
+.subjects li button:hover {
+  background-color: #7744cc; /* Darker purple on hover */
+}
+
+.left-navbar {
+  position: fixed; /* Fixed position to stay in place on scroll */
+  font-size: 0px;
+  top: 8px;
+  left: 0;
+  height: 100vh; /* Full viewport height */
+  width: 4vw; /* Adjust width as needed */
+  background-color: black; /* Change background color as desired */
+  padding: 10px;
+  overflow-y: auto;
+  transition: width 0.5s ease-in-out;
+}
+
+.left-navbar:hover {
+  width: 10vw;
+  font-size: 100%;
+}
+
+.left-navbar img {
+  float:left;
+  width:2vw;
+  height:2vw;"
+}
+
+.left-navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.left-navbar li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  display: block;
+  border: 1px solid #fff;
+  border-radius: 5px; /* Add rounded corners */
+  display: inline-block; /* Ensure button-like behavior */
+  cursor: pointer; /* Indicate interactivity */
+  font-weight: bold;
+}
+
+.left-navbar li a:hover {
+  background-color: #7744cc; /* Darker purple on hover */
+}
+
+
+.lofi-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("room-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+h1, h2 {
+  font-family: "Dancing Script", cursive; /* Keep the cursive headings */
+  color: #f5f5f5; /* Soft white for headings */
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Subtle inner shadow */
+}
+
+h3 {
+  color: #fff; /* Lighter white for subheadings */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #ddd; /* Lighter gray links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b080e0; /* Purple accent on hover */
+}
+
+section {
+  width: 100vw;
+  padding: 20px;
+}
+
+footer {
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.pixel-art {
+  filter: contrast(1.2); /* Enhance pixel art sharpness */
+}
+
+.mail-container {
+  margin: 0 auto;
+  width:60vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+  padding: 40px; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif;
+}
+.mail-post {
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.mail-post iframe {
+  width: 100%;
+  height: 1000px;
+  border: none;
+  border-radius: 10px;
+  overflow-y: scroll; /* Allow scrolling for longer content */
+}
+
+.mail-container a {
+  color: #4285f4; /* Blue link color */
+}
+
+.music-player iframe {
+  margin-bottom: 10px;
+}
+  
+.inside-h2 {
+  margin-top:0;
+}
